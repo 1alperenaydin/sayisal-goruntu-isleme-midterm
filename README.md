@@ -1,0 +1,1 @@
+# sayisal-goruntu-isleme-midterm
