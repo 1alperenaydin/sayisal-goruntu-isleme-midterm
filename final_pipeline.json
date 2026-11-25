@@ -1,0 +1,39 @@
+{
+  "deney": "E15",
+  "islem_sirasi": [
+    "CLAHE",
+    "medyan",
+    "sabit_esik",
+    "acma",
+    "kapama",
+    "sayim"
+  ],
+  "clahe": {
+    "clipLimit": 2.0,
+    "tileGridSize": [
+      8,
+      8
+    ]
+  },
+  "medyan_boyutu": 5,
+  "sabit_esik": 36,
+  "esik_turu": "THRESH_BINARY",
+  "morfoloji": {
+    "eleman": "elips",
+    "boyut": [
+      5,
+      5
+    ],
+    "her_islem_icin_tekrar": 1
+  },
+  "sayim_fonksiyonu": "baseline_say",
+  "sayim": {
+    "komsuluk": 8,
+    "alan_filtresi": false
+  },
+  "baseline": {
+    "esik": "Otsu",
+    "komsuluk": 8,
+    "alan_filtresi": false
+  }
+}

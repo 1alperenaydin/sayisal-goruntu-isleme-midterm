@@ -1,0 +1,17 @@
+deney,yogunluk,filtre,segmentasyon,morfoloji,parametreler,gelistirme_MAE
+E01,Orijinal,Yok,Otsu,Yok,"8-komşuluk, alan filtresi yok",817.7
+E02,Histogram eşitleme,Yok,Otsu,Yok,"8-komşuluk, alan filtresi yok",24208.8
+E03,"CLAHE (clipLimit=2.0, 8×8)",Yok,Otsu,Yok,"8-komşuluk, alan filtresi yok",617.4
+E04,"CLAHE (clipLimit=2.0, 8×8)",Gaussian 3×3 (sigma=0),Otsu,Yok,"8-komşuluk, alan filtresi yok",78.3
+E05,"CLAHE (clipLimit=2.0, 8×8)",Gaussian 5×5 (sigma=0),Otsu,Yok,"8-komşuluk, alan filtresi yok",31.5
+E06,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Otsu,Yok,"8-komşuluk, alan filtresi yok",30.9
+E07,"CLAHE (clipLimit=2.0, 8×8)","Keskinleştirme 3×3 [[0,-1,0],[-1,5,-1],[0,-1,0]]",Otsu,Yok,"8-komşuluk, alan filtresi yok",19694.2
+E08,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Sabit eşik (T=36),Yok,"8-komşuluk, alan filtresi yok",27.0
+E09,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,"Adaptif Gaussian (31×31, C=-2)",Yok,"8-komşuluk, alan filtresi yok",8962.6
+E10,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Sabit eşik (T=36),"Erozyon, elips 3×3","8-komşuluk, alan filtresi yok",14.8
+E11,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Sabit eşik (T=36),"Genişletme, elips 3×3","8-komşuluk, alan filtresi yok",6.9
+E12,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Sabit eşik (T=36),"Açma, elips 3×3","8-komşuluk, alan filtresi yok",5.9
+E13,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Sabit eşik (T=36),"Kapama, elips 3×3","8-komşuluk, alan filtresi yok",14.2
+E14,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Sabit eşik (T=36),"Açma, elips 5×5","8-komşuluk, alan filtresi yok",4.7
+E15,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Sabit eşik (T=36),"Açma → Kapama, elips 5×5","8-komşuluk, alan filtresi yok",3.6
+E16,"CLAHE (clipLimit=2.0, 8×8)",Medyan 5×5,Sabit eşik (T=36),"Kapama → Açma, elips 5×5","8-komşuluk, alan filtresi yok",3.2
